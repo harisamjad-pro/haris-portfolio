@@ -16,7 +16,7 @@ export default function Header() {
                 height={96}
                 className="w-12 h-12 object-cover rounded-full relative z-20"
               />
-              <div className="w-10 h-10 bg-green-400 rounded-full animate-ping absolute left-1 top-1"></div>
+              <div className="w-full h-full bg-green-400 rounded-full animate-ping absolute left-0 top-0"></div>
             </Link>
           </li>
           <li>
