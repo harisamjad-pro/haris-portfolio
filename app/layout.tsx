@@ -20,7 +20,7 @@ const interFont = localFont({
 
 export const metadata: Metadata = {
   title: "Haris Amjad's Portfolio",
-  description: "Full Stack Developer",
+  description: "Haris Amjad Full Stack Developer Portfolio",
 };
 
 export default function RootLayout({
