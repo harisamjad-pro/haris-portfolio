@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <header className="fixed top-0 w-full">
       <nav className="px-24 max-xl:px-16 max-lg:px-12 max-md:px-8 max-sm:px-4 py-6 flex items-center justify-center">
-        <ul className="ps-2 pe-4 py-2 border border-neutral-200 bg-neutral-200/20 backdrop-blur-xl rounded-full text-sm font-medium text-black max-sm:w-full">
+        <ul className="ps-2 pe-4 py-2 border border-neutral-200 bg-neutral-200/40 backdrop-blur-xl rounded-full text-sm font-medium text-black max-sm:w-full">
           <li className="flex items-center justify-between gap-24 max-sm:gap-6">
             <Link href="/" className="relative">
               <Image
@@ -28,7 +28,7 @@ export default function Header() {
                 <Link href="/" className="hover:text-blue-600">Work</Link>
               </li>
               <li>
-                <Link href="/" className="bg-neutral-800 hover:bg-black text-blue-400 px-4 py-2 rounded-full">Contact</Link>
+                <Link href="/" className="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-full">Contact</Link>
               </li>
               {/* <li>
                 <button onClick={() => console.log("Toggle Mode")} className="flex"><HiOutlineSun className="size-4" /></button>
