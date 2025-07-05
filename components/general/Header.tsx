@@ -2,7 +2,7 @@
 import Link from 'next/link'
 import React from 'react'
 import Image from 'next/image';
-import { HiOutlineSun } from 'react-icons/hi';
+// import { HiOutlineSun } from 'react-icons/hi';
 
 export default function Header() {
   return (
